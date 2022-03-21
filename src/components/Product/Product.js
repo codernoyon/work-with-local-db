@@ -3,7 +3,7 @@ import { addToDb, remvoeFromDb } from '../../utilities/fakeDb';
 import "./Product.css"
 
 const Product = (props) => {
-    const {title, price, image, category, description, id} = props.user;
+    const {title, price, image, category, id} = props.user;
 
     /* 
      Different way to call fuction with parameter
