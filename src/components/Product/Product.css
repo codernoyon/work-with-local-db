@@ -1,0 +1,29 @@
+.product{
+    border: 1px solid lightgray;
+    padding: 2rem 1.5rem;
+    box-shadow: -2px 3px 8px #81818138;
+    border-radius: .3rem;
+    transition: .3s;
+}
+
+.product:hover{
+    box-shadow: -2px 3px 8px #81818188;
+    
+}
+
+.product button{
+    margin-bottom: 1rem;
+    padding: .6rem 1rem; 
+    margin: 0 .3rem;  
+}
+
+.image{
+    width: 100%;
+    
+}
+
+.image img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
